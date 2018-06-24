@@ -1,0 +1,204 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	padding:0;
+	margin:0;
+	line-height: 1.5;
+	font-family: Oxygen;
+
+}
+/*Global*/
+.container{
+	margin:auto;
+	padding: 0 30px 0 0;
+	overflow:hidden;
+	font-family: Oxygen, sans-serif;
+}
+.container h3{
+	font-weight: 700;
+	margin-top: 20px;
+}
+.container div h5{
+	font-size: 13.5px;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+
+/*Navigation*/
+nav{
+	border-bottom: 3px solid #379634;
+}
+.navbar .navbar-brand{
+	color: #ffffff;
+	font-family: Merriweather, serif;
+	text-transform: uppercase;
+	letter-spacing: 0.25em; 
+	font-weight: 700;
+}
+.navbar-brand:hover{
+	color: #379634;
+}
+.nav-item .nav-link{
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	color: #379634;
+	font-family: Oxygen;
+}
+.nav-link:hover{
+	color: #fff;
+}
+
+/*Change svg image & background color*/
+
+.navbar .custom-toggler.navbar-toggler{
+	border-color: rgb(55,150,52); 
+
+}
+ 
+.fas .fa-bars{
+  background: #379634;
+}
+
+
+/*Header*/
+#showcase{
+	color:#ffffff;
+	min-height:500px;
+	background: url(./images/buildings.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding-top: 14.5%; 
+}
+
+#showcase h1{
+	font-size: 5em;
+	font-family: Merriweather, serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 40px;
+	letter-spacing: 0.25em;
+	text-shadow: 1px 2px 3px #000;
+}
+#showcase p{
+	font-weight: bold;
+	text-shadow: 1px 2px 3px #000;
+}
+
+
+/*About*/
+.row{
+	margin-top: 50px;
+}
+.img1 {
+	float:left;
+	margin-left: 35px;
+	text-align: center;
+	
+}
+
+.img2{
+	margin-left: 35px;
+	text-align: center;
+}
+
+
+.img1 img{
+	margin-top:15px;
+	width:215px;
+	height:225px;
+	border-radius:100%;
+}
+
+.img2 img{
+	margin-top: 10px;
+	width:205px;
+	height:225px;
+	border-radius:100%;
+}
+.col-xl{
+	text-align: center;
+	margin: 10px;
+	padding: 15px;
+}
+
+
+
+/*Services
+*/
+#services{
+	color: #ffffff;
+}
+
+ol ul{
+	padding: 15px 0 15px 15px;
+}
+
+
+/*Footer*/
+footer{
+	background: #379634;
+}
+
+footer button{
+	float: right;
+	margin-right: 30px;
+}
+button a{
+	color: #379634;
+	font-weight: 700;
+}
+button a:hover{
+	color: #ffffff;
+}
+
+footer ul {
+	font-weight: 700;
+	float: left;
+	text-align: center;
+	list-style: none;
+}
+footer ul li a{
+	color: #ffffff;
+}
+footer div{
+	font-weight: 700;
+	text-align: center;
+	clear: both;
+	font-family: Merriweater, serif;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 0.25em;
+}
+
+/*Media quries*/
+@media (max-width:768px){
+	#showcase h1{
+		font-size: 3rem;
+		letter-spacing: 0.25em; 
+	}
+
+	.btn{
+		text-align: center;
+		margin-top: -10%;
+		margin-left: 75%;
+	}
+
+
+     .col,
+     footer button,
+     footer ul{
+		float: none;
+		text-align: center;
+	}	
+
+	.img1{
+		padding-left: 18%;
+	}
+
+
+}
+
